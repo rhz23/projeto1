@@ -1,0 +1,15 @@
+<div id="bg">
+  Login:
+  <input type="text" id="menuTxt" [(ngModel)]="textoForm">
+  <br/>
+  Senha:
+  <input type="password" id="minhaSenha" [(ngModel)]="senha"><br/>
+  <input type="checkbox" [(ngModel)]= "clicado">Clique aqui <br/>
+  <button type="button" (click)="enviarDados()">Enviar Dados</button>
+
+  <p>conteudo works. Mensagem = {{ mensagem }} - {{ valor }}</p>
+  <button type="button" (click)="mudarValor()">Mudar Valor</button>
+
+  <img [src]="link_foto" width="100%">
+
+</div>
